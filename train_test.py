@@ -50,6 +50,7 @@ def train(model: torch.nn.Module, num_epochs: int, optimizer, loss_function, tra
         
         if scheduler:
             scheduler.step(np.mean(valid_loss))
+            print(f'Last Scheduler Learning Rate: {scheduler.get_last_lr()}')
     
     torch.save(model, path_to_model+'.pth')
     return model
