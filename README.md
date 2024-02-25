@@ -14,7 +14,7 @@ Uses tiny-imagenet-200 to train and test the network.
 
 ### Where is the code?
 
-The majority of the code is located in the following files:
+The code is located in the following files:
 
 * main.py - main entry to train EtinyNet
 * EtinyNet.py - EtinyNet Network
