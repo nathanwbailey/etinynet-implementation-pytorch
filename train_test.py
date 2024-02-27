@@ -10,7 +10,6 @@ def calculate_accuracy(outputs, ground_truth):
     num_correct = torch.sum(torch.eq(predictions, ground_truth)).item()
     return num_correct, ground_truth.size(0)
 
-
 def calculate_accuracy_top_5(outputs, ground_truth):
     num_correct = 0
     softmaxed_output = torch.nn.functional.softmax(outputs, dim=1)

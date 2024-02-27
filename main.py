@@ -41,6 +41,7 @@ print(std)
 
 train_transforms = torchvision.transforms.Compose([
     torchvision.transforms.Resize((224,224)),
+    torchvision.transforms.RandomResizedCrop((224,224)),
     torchvision.transforms.RandomHorizontalFlip(p=0.5),
     torchvision.transforms.ToTensor(),
     torchvision.transforms.Normalize(mean, std)
