@@ -1,2 +1,4 @@
 tiny-imagenet-200
 *.pyc
+early
+etinynet

@@ -20,18 +20,21 @@ train_dataset = ImageFolder('tiny-imagenet-200/train', transforms)
 
 trainloader = torch.utils.data.DataLoader(train_dataset, batch_size=32, shuffle=True, pin_memory=True, num_workers=4)
 
-mean = torch.zeros(3).to(device)
-std = torch.zeros(3).to(device)
+mean = torch.Tensor([0.4805, 0.4483, 0.3978]).to('cpu')
+std = torch.Tensor([0.2647, 0.2569, 0.2701]).to('cpu')
 
-for idx, batch in enumerate(trainloader):
-    image = batch[0].to(device)
-    image_mean = torch.mean(image, dim=(0,2,3))
-    image_std = torch.std(image, dim=(0,2,3))
-    mean = torch.add(mean, image_mean)
-    std = torch.add(std, image_std)
+# mean = torch.zeros(3).to(device)
+# std = torch.zeros(3).to(device)
 
-mean = (mean/len(trainloader)).to('cpu')
-std = (std/len(trainloader)).to('cpu')
+# for idx, batch in enumerate(trainloader):
+#     image = batch[0].to(device)
+#     image_mean = torch.mean(image, dim=(0,2,3))
+#     image_std = torch.std(image, dim=(0,2,3))
+#     mean = torch.add(mean, image_mean)
+#     std = torch.add(std, image_std)
+
+# mean = (mean/len(trainloader)).to('cpu')
+# std = (std/len(trainloader)).to('cpu')
 
 print(mean)
 print(std)

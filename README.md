@@ -20,3 +20,8 @@ The code is located in the following files:
 * EtinyNet.py - EtinyNet Network
 * train_test.py - Functions to train and test EtinyNet
 * etinynet_depthwise_layers.py - Building Blocks for EtinyNet
+
+### Requirements
+
+All pip packages needed can be found in requirements.txt
+Additionally the early-stopping-pytorch module was used (https://github.com/Bjarten/early-stopping-pytorch)

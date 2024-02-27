@@ -1,7 +1,7 @@
 import torch
 from etinynet_depthwise_layers import LB
 from etinynet_depthwise_layers import DLB
-# import pytorch_model_summary as pms
+import pytorch_model_summary as pms
 
 class EtinyNet(torch.nn.Module):
     def __init__(self, block_info: list[dict], *args, **kwargs) -> None:
@@ -64,13 +64,13 @@ etinynet_block_info = [
         "block_type": "lb",
         "layer_values": [{"in_channels": 32, "out_channels": 128}] + [{"in_channels": 128, "out_channels": 128} for _ in range(3)]
     },
+    # {
+    #     "block_type": "dlb",
+    #     "layer_values": [{"in_channels": 128, "out_channels": 192}] + [{"in_channels": 192, "out_channels": 192} for _ in range(2)]
+    # },
     {
         "block_type": "dlb",
-        "layer_values": [{"in_channels": 128, "out_channels": 192}] + [{"in_channels": 192, "out_channels": 192} for _ in range(2)]
-    },
-    {
-        "block_type": "dlb",
-        "layer_values": [{"in_channels": 192, "out_channels": 256}, {"in_channels": 256, "out_channels": 256}, {"in_channels": 256, "out_channels": 512}]
+        "layer_values": [{"in_channels": 128, "out_channels": 256}, {"in_channels": 256, "out_channels": 256}, {"in_channels": 256, "out_channels": 512}]
     }
 ]
 
