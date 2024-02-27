@@ -91,7 +91,7 @@ loss = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(filter(lambda param: param.requires_grad, network.parameters()), lr = 0.1, momentum=0.9, weight_decay=1e-4)
 
 # scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=)
-scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer=optimizer, factor=0.1, mode='min', patience=6, min_lr=1e-7, threshold_mode='abs', threshold=1e-4)
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer=optimizer, factor=0.1, mode='min', patience=3, min_lr=1e-7, threshold_mode='abs', threshold=1e-4)
 num_epochs = 1000
 
 network = train(model=network, num_epochs=num_epochs, optimizer=optimizer, loss_function=loss, trainloader=trainloader, validloader=validloader, device=device, scheduler=scheduler)
