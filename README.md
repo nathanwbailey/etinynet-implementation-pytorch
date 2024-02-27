@@ -24,4 +24,5 @@ The code is located in the following files:
 ### Requirements
 
 All pip packages needed can be found in requirements.txt
+
 Additionally the early-stopping-pytorch module was used (https://github.com/Bjarten/early-stopping-pytorch)
