@@ -31,13 +31,13 @@ class DLB(torch.nn.Module):
     def forward(self, input_tensor: torch.Tensor) -> torch.Tensor:
         residual = input_tensor
         depthwise_result = self.batch_normalization_a(self.depthwise_conv_layer_a(input_tensor))
-        pointwise_result = F.relu(self.batch_normalization_point(self.pointwise_layer(depthwise_result)))
+        pointwise_result = self.batch_normalization_point(self.pointwise_layer(depthwise_result))
         if self.downsample:
             residual = self.downsample(input_tensor)
         pointwise_result = pointwise_result + residual
         pointwise_result = F.relu(pointwise_result)
-        final_depthwise_result = F.relu(self.batch_normalization_b(self.depthwise_conv_layer_b(pointwise_result)))
-        final_depthwise_result = final_depthwise_result + pointwise_result + residual
+        final_depthwise_result = self.batch_normalization_b(self.depthwise_conv_layer_b(pointwise_result))
+        final_depthwise_result = F.relu(final_depthwise_result + pointwise_result + residual)
         return final_depthwise_result
 
 # downsample = torch.nn.Sequential(
