@@ -35,7 +35,7 @@ class EtinyNet(torch.nn.Module):
             self.blocks,
             self.global_pool,
             torch.nn.Flatten(),
-            torch.nn.Dropout(p=0.1),
+            torch.nn.Dropout(p=0.3),
             self.fully_connected
         )
 
