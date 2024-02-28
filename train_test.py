@@ -98,6 +98,8 @@ def test(model: torch.nn.Module, testloader, loss_function, device)-> torch.nn.M
     test_loss = []
     num_examples = 0
     num_correct = 0
+    num_examples_5 = 0
+    num_correct_5 = 0
     model.eval()
     for batch in testloader:
         images = batch[0].to(device)
@@ -108,6 +110,9 @@ def test(model: torch.nn.Module, testloader, loss_function, device)-> torch.nn.M
         num_corr, num_ex = calculate_accuracy(output, labels)
         num_examples += num_ex
         num_correct += num_corr
+        num_corr_5, num_ex_5 = calculate_accuracy_top_5(output, labels)
+        num_examples_5 += num_ex_5
+        num_correct_5 += num_corr_5
     
-        print(f'Test Loss: {np.mean(test_loss)}, Test Accuracy: {num_correct/num_examples}')
+    print(f'Test Loss: {np.mean(test_loss)}, Test Accuracy: {num_correct/num_examples}, Test Accuracy Top 5: {num_correct_5/num_examples_5}')
     return model
