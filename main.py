@@ -36,13 +36,11 @@ std = torch.Tensor([0.2647, 0.2569, 0.2701]).to('cpu')
 # mean = (mean/len(trainloader)).to('cpu')
 # std = (std/len(trainloader)).to('cpu')
 
-print(mean)
-print(std)
 
 train_transforms = torchvision.transforms.Compose([
     torchvision.transforms.Resize((224,224)),
-    torchvision.transforms.RandomResizedCrop((224,224)),
-    torchvision.transforms.RandomHorizontalFlip(p=0.5),
+    torchvision.transforms.RandomResizedCrop((224,224), scale=(0.4, 1.0)),
+    torchvision.transforms.RandomHorizontalFlip(p=0.7),
     torchvision.transforms.ToTensor(),
     torchvision.transforms.Normalize(mean, std)
 ])
@@ -61,10 +59,6 @@ valid_set, test_set = torch.utils.data.random_split(valid_dataset, [0.7, 0.3], g
 trainloader = torch.utils.data.DataLoader(train_dataset, batch_size=128, shuffle=True, pin_memory=True, num_workers=4)
 validloader = torch.utils.data.DataLoader(valid_set, batch_size=128, shuffle=False, pin_memory=True, num_workers=4)
 testloader = torch.utils.data.DataLoader(test_set, batch_size=128, shuffle=False, pin_memory=True, num_workers=4)
-
-print(len(trainloader))
-print(len(validloader))
-print(len(testloader))
 
 etinynet_block_info = [
     {
