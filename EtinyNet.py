@@ -55,24 +55,24 @@ class EtinyNet(torch.nn.Module):
         return self.layers(input_tensor)
 
 
-etinynet_block_info = [
-    {
-        "block_type": "lb",
-        "layer_values": [{"in_channels": 32, "out_channels": 32} for _ in range(4)]
-    },
-    {
-        "block_type": "lb",
-        "layer_values": [{"in_channels": 32, "out_channels": 128}] + [{"in_channels": 128, "out_channels": 128} for _ in range(3)]
-    },
-    # {
-    #     "block_type": "dlb",
-    #     "layer_values": [{"in_channels": 128, "out_channels": 192}] + [{"in_channels": 192, "out_channels": 192} for _ in range(2)]
-    # },
-    {
-        "block_type": "dlb",
-        "layer_values": [{"in_channels": 128, "out_channels": 256}, {"in_channels": 256, "out_channels": 256}, {"in_channels": 256, "out_channels": 512}]
-    }
-]
+# etinynet_block_info = [
+#     {
+#         "block_type": "lb",
+#         "layer_values": [{"in_channels": 32, "out_channels": 32} for _ in range(4)]
+#     },
+#     {
+#         "block_type": "lb",
+#         "layer_values": [{"in_channels": 32, "out_channels": 128}] + [{"in_channels": 128, "out_channels": 128} for _ in range(3)]
+#     },
+#     {
+#         "block_type": "dlb",
+#         "layer_values": [{"in_channels": 128, "out_channels": 192}] + [{"in_channels": 192, "out_channels": 192} for _ in range(2)]
+#     },
+#     {
+#         "block_type": "dlb",
+#         "layer_values": [{"in_channels": 192, "out_channels": 256}, {"in_channels": 256, "out_channels": 256}, {"in_channels": 256, "out_channels": 512}]
+#     }
+# ]
 
 # network = EtinyNet(block_info=etinynet_block_info)
 # x = filter(lambda param: param.requires_grad, network.parameters())
