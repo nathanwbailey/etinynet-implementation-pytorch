@@ -96,6 +96,10 @@ num_epochs = 1000
 
 network = train(model=network, num_epochs=num_epochs, optimizer=optimizer, loss_function=loss, trainloader=trainloader, validloader=validloader, device=device, scheduler=scheduler)
 
+# network.load_state_dict(torch.load('etinynet.pt'))
+# network.to(device)
+# network.eval()
+
 test_loss = torch.nn.CrossEntropyLoss()
 
 network = test(model=network, testloader=testloader, loss_function=test_loss, device=device)
