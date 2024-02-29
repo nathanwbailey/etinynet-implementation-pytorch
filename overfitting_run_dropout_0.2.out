@@ -1,0 +1,159 @@
+Training Started
+Epoch: 1, Training Loss: 4.898381553952347, Validation Loss: 4.514657410708341, Training Accuracy: 0.03617, Validation Accuracy: 0.06557142857142857, Top 5 Training Accuracy: 0.11197, Top 5 Validation Accuracy: 0.19142857142857142
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (inf --> 4.514657).  Saving model ...
+Epoch: 2, Training Loss: 4.134831683105215, Validation Loss: 3.7938810565254903, Training Accuracy: 0.11444, Validation Accuracy: 0.16242857142857142, Top 5 Training Accuracy: 0.27629, Top 5 Validation Accuracy: 0.35514285714285715
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (4.514657 --> 3.793881).  Saving model ...
+Epoch: 3, Training Loss: 3.65098814647216, Validation Loss: 3.382758535038341, Training Accuracy: 0.18911, Validation Accuracy: 0.23057142857142857, Top 5 Training Accuracy: 0.3912, Top 5 Validation Accuracy: 0.45385714285714285
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (3.793881 --> 3.382759).  Saving model ...
+Epoch: 4, Training Loss: 3.351081261549459, Validation Loss: 3.268433930657127, Training Accuracy: 0.24253, Validation Accuracy: 0.2552857142857143, Top 5 Training Accuracy: 0.46063, Top 5 Validation Accuracy: 0.4805714285714286
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (3.382759 --> 3.268434).  Saving model ...
+Epoch: 5, Training Loss: 3.138354756947978, Validation Loss: 3.115878629684448, Training Accuracy: 0.28015, Validation Accuracy: 0.2844285714285714, Top 5 Training Accuracy: 0.50922, Top 5 Validation Accuracy: 0.5094285714285715
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (3.268434 --> 3.115879).  Saving model ...
+Epoch: 6, Training Loss: 2.977883466369356, Validation Loss: 2.9098713744770395, Training Accuracy: 0.3104, Validation Accuracy: 0.323, Top 5 Training Accuracy: 0.54545, Top 5 Validation Accuracy: 0.558
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (3.115879 --> 2.909871).  Saving model ...
+Epoch: 7, Training Loss: 2.8516482389186653, Validation Loss: 2.8203907533125445, Training Accuracy: 0.3367, Validation Accuracy: 0.3442857142857143, Top 5 Training Accuracy: 0.57106, Top 5 Validation Accuracy: 0.5728571428571428
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.909871 --> 2.820391).  Saving model ...
+Epoch: 8, Training Loss: 2.7489544796516827, Validation Loss: 2.7194132978265935, Training Accuracy: 0.35443, Validation Accuracy: 0.35928571428571426, Top 5 Training Accuracy: 0.59177, Top 5 Validation Accuracy: 0.5932857142857143
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.820391 --> 2.719413).  Saving model ...
+Epoch: 9, Training Loss: 2.6677127750328435, Validation Loss: 2.6293490756641735, Training Accuracy: 0.37292, Validation Accuracy: 0.3767142857142857, Top 5 Training Accuracy: 0.6088, Top 5 Validation Accuracy: 0.6232857142857143
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.719413 --> 2.629349).  Saving model ...
+Epoch: 10, Training Loss: 2.595653091550178, Validation Loss: 2.7837668592279607, Training Accuracy: 0.38575, Validation Accuracy: 0.356, Top 5 Training Accuracy: 0.6222, Top 5 Validation Accuracy: 0.5965714285714285
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 1 out of 10
+Epoch: 11, Training Loss: 2.538429211929936, Validation Loss: 2.6112420255487616, Training Accuracy: 0.39628, Validation Accuracy: 0.3811428571428571, Top 5 Training Accuracy: 0.63352, Top 5 Validation Accuracy: 0.6255714285714286
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.629349 --> 2.611242).  Saving model ...
+Epoch: 12, Training Loss: 2.4956912782491014, Validation Loss: 2.5457132469524035, Training Accuracy: 0.40526, Validation Accuracy: 0.3974285714285714, Top 5 Training Accuracy: 0.64347, Top 5 Validation Accuracy: 0.6294285714285714
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.611242 --> 2.545713).  Saving model ...
+Epoch: 13, Training Loss: 2.4449523085218563, Validation Loss: 2.543939989263361, Training Accuracy: 0.41507, Validation Accuracy: 0.40114285714285713, Top 5 Training Accuracy: 0.65207, Top 5 Validation Accuracy: 0.637
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.545713 --> 2.543940).  Saving model ...
+Epoch: 14, Training Loss: 2.4101657068637934, Validation Loss: 2.4756470290097323, Training Accuracy: 0.42305, Validation Accuracy: 0.409, Top 5 Training Accuracy: 0.65962, Top 5 Validation Accuracy: 0.6431428571428571
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.543940 --> 2.475647).  Saving model ...
+Epoch: 15, Training Loss: 2.372076739892935, Validation Loss: 2.4840836785056375, Training Accuracy: 0.43187, Validation Accuracy: 0.412, Top 5 Training Accuracy: 0.66766, Top 5 Validation Accuracy: 0.648
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 1 out of 10
+Epoch: 16, Training Loss: 2.3393013398055835, Validation Loss: 2.4767074476588857, Training Accuracy: 0.437, Validation Accuracy: 0.4014285714285714, Top 5 Training Accuracy: 0.67274, Top 5 Validation Accuracy: 0.6542857142857142
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 2 out of 10
+Epoch: 17, Training Loss: 2.3156404266576938, Validation Loss: 2.3725189815868033, Training Accuracy: 0.44201, Validation Accuracy: 0.4298571428571429, Top 5 Training Accuracy: 0.67778, Top 5 Validation Accuracy: 0.6675714285714286
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.475647 --> 2.372519).  Saving model ...
+Epoch: 18, Training Loss: 2.28673602065162, Validation Loss: 2.701696773008867, Training Accuracy: 0.44658, Validation Accuracy: 0.37414285714285717, Top 5 Training Accuracy: 0.68257, Top 5 Validation Accuracy: 0.6144285714285714
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 1 out of 10
+Epoch: 19, Training Loss: 2.2669722302185606, Validation Loss: 2.394219975038008, Training Accuracy: 0.44966, Validation Accuracy: 0.4317142857142857, Top 5 Training Accuracy: 0.68625, Top 5 Validation Accuracy: 0.6662857142857143
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 2 out of 10
+Epoch: 20, Training Loss: 2.2414950647622423, Validation Loss: 2.4616957317699084, Training Accuracy: 0.45608, Validation Accuracy: 0.41528571428571426, Top 5 Training Accuracy: 0.69184, Top 5 Validation Accuracy: 0.6531428571428571
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 3 out of 10
+Epoch: 21, Training Loss: 2.21981051404153, Validation Loss: 2.335646538300948, Training Accuracy: 0.45854, Validation Accuracy: 0.4397142857142857, Top 5 Training Accuracy: 0.69505, Top 5 Validation Accuracy: 0.6802857142857143
+Last Scheduler Learning Rate: [0.1]
+Validation loss decreased (2.372519 --> 2.335647).  Saving model ...
+Epoch: 22, Training Loss: 2.19919228751946, Validation Loss: 2.41320388100364, Training Accuracy: 0.46587, Validation Accuracy: 0.42214285714285715, Top 5 Training Accuracy: 0.70066, Top 5 Validation Accuracy: 0.6622857142857143
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 1 out of 10
+Epoch: 23, Training Loss: 2.184863906687178, Validation Loss: 2.4412377400831744, Training Accuracy: 0.46798, Validation Accuracy: 0.4187142857142857, Top 5 Training Accuracy: 0.70226, Top 5 Validation Accuracy: 0.6571428571428571
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 2 out of 10
+Epoch: 24, Training Loss: 2.1663240229382232, Validation Loss: 2.4174970800226383, Training Accuracy: 0.47043, Validation Accuracy: 0.4297142857142857, Top 5 Training Accuracy: 0.7056, Top 5 Validation Accuracy: 0.663
+Last Scheduler Learning Rate: [0.1]
+EarlyStopping counter: 3 out of 10
+Epoch: 25, Training Loss: 2.146297238976754, Validation Loss: 2.3658808794888584, Training Accuracy: 0.47405, Validation Accuracy: 0.4258571428571429, Top 5 Training Accuracy: 0.70992, Top 5 Validation Accuracy: 0.6701428571428572
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 4 out of 10
+Epoch: 26, Training Loss: 1.8179735186154886, Validation Loss: 1.875624179840088, Training Accuracy: 0.54636, Validation Accuracy: 0.5387142857142857, Top 5 Training Accuracy: 0.76861, Top 5 Validation Accuracy: 0.7594285714285715
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (2.335647 --> 1.875624).  Saving model ...
+Epoch: 27, Training Loss: 1.712729800540163, Validation Loss: 1.8298430702903055, Training Accuracy: 0.56968, Validation Accuracy: 0.5485714285714286, Top 5 Training Accuracy: 0.78617, Top 5 Validation Accuracy: 0.7695714285714286
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (1.875624 --> 1.829843).  Saving model ...
+Epoch: 28, Training Loss: 1.6616067851290983, Validation Loss: 1.8221968824213202, Training Accuracy: 0.58057, Validation Accuracy: 0.5507142857142857, Top 5 Training Accuracy: 0.79506, Top 5 Validation Accuracy: 0.7721428571428571
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (1.829843 --> 1.822197).  Saving model ...
+Epoch: 29, Training Loss: 1.638216114410049, Validation Loss: 1.8309471433812923, Training Accuracy: 0.5856, Validation Accuracy: 0.552, Top 5 Training Accuracy: 0.79871, Top 5 Validation Accuracy: 0.7658571428571429
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 1 out of 10
+Epoch: 30, Training Loss: 1.60885782391214, Validation Loss: 1.8018851800398392, Training Accuracy: 0.59091, Validation Accuracy: 0.5594285714285714, Top 5 Training Accuracy: 0.80272, Top 5 Validation Accuracy: 0.7717142857142857
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (1.822197 --> 1.801885).  Saving model ...
+Epoch: 31, Training Loss: 1.5915065177566254, Validation Loss: 1.7925993897698143, Training Accuracy: 0.59658, Validation Accuracy: 0.5605714285714286, Top 5 Training Accuracy: 0.80735, Top 5 Validation Accuracy: 0.773
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (1.801885 --> 1.792599).  Saving model ...
+Epoch: 32, Training Loss: 1.569894655128879, Validation Loss: 1.7994387063113126, Training Accuracy: 0.59883, Validation Accuracy: 0.5567142857142857, Top 5 Training Accuracy: 0.8096, Top 5 Validation Accuracy: 0.774
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 1 out of 10
+Epoch: 33, Training Loss: 1.5494022317554639, Validation Loss: 1.8005968418988314, Training Accuracy: 0.6046, Validation Accuracy: 0.555, Top 5 Training Accuracy: 0.81347, Top 5 Validation Accuracy: 0.771
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 2 out of 10
+Epoch: 34, Training Loss: 1.537557878686339, Validation Loss: 1.7784813274036755, Training Accuracy: 0.60714, Validation Accuracy: 0.5628571428571428, Top 5 Training Accuracy: 0.81443, Top 5 Validation Accuracy: 0.7745714285714286
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (1.792599 --> 1.778481).  Saving model ...
+Epoch: 35, Training Loss: 1.5254710671846823, Validation Loss: 1.773308556730097, Training Accuracy: 0.61064, Validation Accuracy: 0.5622857142857143, Top 5 Training Accuracy: 0.81663, Top 5 Validation Accuracy: 0.7772857142857142
+Last Scheduler Learning Rate: [0.010000000000000002]
+Validation loss decreased (1.778481 --> 1.773309).  Saving model ...
+Epoch: 36, Training Loss: 1.5120266021974862, Validation Loss: 1.7862584005702626, Training Accuracy: 0.61201, Validation Accuracy: 0.5594285714285714, Top 5 Training Accuracy: 0.81917, Top 5 Validation Accuracy: 0.7724285714285715
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 1 out of 10
+Epoch: 37, Training Loss: 1.4933287576031502, Validation Loss: 1.791124252839522, Training Accuracy: 0.61646, Validation Accuracy: 0.5614285714285714, Top 5 Training Accuracy: 0.82354, Top 5 Validation Accuracy: 0.776
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 2 out of 10
+Epoch: 38, Training Loss: 1.4818722774915378, Validation Loss: 1.7741225112568249, Training Accuracy: 0.61811, Validation Accuracy: 0.5622857142857143, Top 5 Training Accuracy: 0.82616, Top 5 Validation Accuracy: 0.7772857142857142
+Last Scheduler Learning Rate: [0.010000000000000002]
+EarlyStopping counter: 3 out of 10
+Epoch: 39, Training Loss: 1.475938828704912, Validation Loss: 1.7802429004149003, Training Accuracy: 0.61931, Validation Accuracy: 0.5612857142857143, Top 5 Training Accuracy: 0.82572, Top 5 Validation Accuracy: 0.7755714285714286
+Last Scheduler Learning Rate: [0.0010000000000000002]
+EarlyStopping counter: 4 out of 10
+Epoch: 40, Training Loss: 1.4122703685175122, Validation Loss: 1.7499820839275013, Training Accuracy: 0.63262, Validation Accuracy: 0.5677142857142857, Top 5 Training Accuracy: 0.83649, Top 5 Validation Accuracy: 0.7788571428571428
+Last Scheduler Learning Rate: [0.0010000000000000002]
+Validation loss decreased (1.773309 --> 1.749982).  Saving model ...
+Epoch: 41, Training Loss: 1.392215754217504, Validation Loss: 1.7389435811476275, Training Accuracy: 0.64166, Validation Accuracy: 0.5715714285714286, Top 5 Training Accuracy: 0.841, Top 5 Validation Accuracy: 0.7811428571428571
+Last Scheduler Learning Rate: [0.0010000000000000002]
+Validation loss decreased (1.749982 --> 1.738944).  Saving model ...
+Epoch: 42, Training Loss: 1.3816397915715757, Validation Loss: 1.7366497559980913, Training Accuracy: 0.6423, Validation Accuracy: 0.5728571428571428, Top 5 Training Accuracy: 0.84155, Top 5 Validation Accuracy: 0.7808571428571428
+Last Scheduler Learning Rate: [0.0010000000000000002]
+Validation loss decreased (1.738944 --> 1.736650).  Saving model ...
+Epoch: 43, Training Loss: 1.3816243516819557, Validation Loss: 1.7416509714993564, Training Accuracy: 0.64115, Validation Accuracy: 0.5737142857142857, Top 5 Training Accuracy: 0.84172, Top 5 Validation Accuracy: 0.7801428571428571
+Last Scheduler Learning Rate: [0.0010000000000000002]
+EarlyStopping counter: 1 out of 10
+Epoch: 44, Training Loss: 1.3745069767508056, Validation Loss: 1.741954131559892, Training Accuracy: 0.64354, Validation Accuracy: 0.5727142857142857, Top 5 Training Accuracy: 0.84187, Top 5 Validation Accuracy: 0.7827142857142857
+Last Scheduler Learning Rate: [0.0010000000000000002]
+EarlyStopping counter: 2 out of 10
+Epoch: 45, Training Loss: 1.3655662569396025, Validation Loss: 1.742458748817444, Training Accuracy: 0.64642, Validation Accuracy: 0.5738571428571428, Top 5 Training Accuracy: 0.84438, Top 5 Validation Accuracy: 0.7812857142857143
+Last Scheduler Learning Rate: [0.0010000000000000002]
+EarlyStopping counter: 3 out of 10
+Epoch: 46, Training Loss: 1.368936461027321, Validation Loss: 1.740069411017678, Training Accuracy: 0.64496, Validation Accuracy: 0.574, Top 5 Training Accuracy: 0.84298, Top 5 Validation Accuracy: 0.7831428571428571
+Last Scheduler Learning Rate: [0.00010000000000000003]
+EarlyStopping counter: 4 out of 10
+Epoch: 47, Training Loss: 1.3618851400092435, Validation Loss: 1.7411365834149448, Training Accuracy: 0.64796, Validation Accuracy: 0.5744285714285714, Top 5 Training Accuracy: 0.84491, Top 5 Validation Accuracy: 0.781
+Last Scheduler Learning Rate: [0.00010000000000000003]
+EarlyStopping counter: 5 out of 10
+Epoch: 48, Training Loss: 1.357285960937095, Validation Loss: 1.7437604275616732, Training Accuracy: 0.64739, Validation Accuracy: 0.5737142857142857, Top 5 Training Accuracy: 0.84512, Top 5 Validation Accuracy: 0.7815714285714286
+Last Scheduler Learning Rate: [0.00010000000000000003]
+EarlyStopping counter: 6 out of 10
+Epoch: 49, Training Loss: 1.356225737601595, Validation Loss: 1.740416407585144, Training Accuracy: 0.64687, Validation Accuracy: 0.5751428571428572, Top 5 Training Accuracy: 0.84532, Top 5 Validation Accuracy: 0.7814285714285715
+Last Scheduler Learning Rate: [0.00010000000000000003]
+EarlyStopping counter: 7 out of 10
+Epoch: 50, Training Loss: 1.354170190175171, Validation Loss: 1.7379044511101462, Training Accuracy: 0.6491, Validation Accuracy: 0.5734285714285714, Top 5 Training Accuracy: 0.84573, Top 5 Validation Accuracy: 0.7828571428571428
+Last Scheduler Learning Rate: [1.0000000000000004e-05]
+EarlyStopping counter: 8 out of 10
+Epoch: 51, Training Loss: 1.3643066204722276, Validation Loss: 1.7411274324763906, Training Accuracy: 0.64606, Validation Accuracy: 0.5731428571428572, Top 5 Training Accuracy: 0.84399, Top 5 Validation Accuracy: 0.7807142857142857
+Last Scheduler Learning Rate: [1.0000000000000004e-05]
+EarlyStopping counter: 9 out of 10
+Epoch: 52, Training Loss: 1.3531857770117348, Validation Loss: 1.737272106517445, Training Accuracy: 0.64702, Validation Accuracy: 0.5725714285714286, Top 5 Training Accuracy: 0.84599, Top 5 Validation Accuracy: 0.7798571428571428
+Last Scheduler Learning Rate: [1.0000000000000004e-05]
+EarlyStopping counter: 10 out of 10
+Early Stopping at Epoch: 52
+Test Loss: 1.6804752002159755, Test Accuracy: 0.5963333333333334, Test Accuracy Top 5: 0.7966666666666666
