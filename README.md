@@ -8,6 +8,8 @@ This project implements EtinyNet (https://ojs.aaai.org/index.php/AAAI/article/vi
 
 Uses tiny-imagenet-200 to train and test the network.
 
+The overfitting-trial branch adds regularisation to the network in an attempt to increase test accuracy.
+
 
 ### Blogs
 
