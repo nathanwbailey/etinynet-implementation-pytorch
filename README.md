@@ -8,6 +8,10 @@ This project implements EtinyNet (https://ojs.aaai.org/index.php/AAAI/article/vi
 
 Uses tiny-imagenet-200 to train and test the network.
 
+This specify branch adds regularisation to the network in an attempt to improve test accuarcy.
+
+Dropout and image cropping are used to achieve this.
+
 
 ### Blogs
 
