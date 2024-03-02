@@ -12,12 +12,10 @@ for i in training_stats:
     if 'Validation Accuracy' in i:
         try:
             y = i.split()
-            print(y)
             train_loss.append(float(y[4].strip(',')))
             valid_loss.append(float(y[7].strip(',')))
             train_accuracy.append(float(y[10].strip(',')))
             valid_accuracy.append(float(y[13].strip(',')))
-            print(float(y[13].strip(',')))
             train_accuracy_5.append(float(y[18].strip(',')))
             valid_accuracy_5.append(float(y[23].strip(',')))
         except IndexError:
@@ -35,8 +33,8 @@ plt.clf()
 
 plt.plot(epochs, valid_accuracy, '-c', label='Validation Accuracy')
 plt.plot(epochs, train_accuracy, '-m', label='Train Accuracy')
-plt.title('Accuracy vs Epoch')
-plt.ylabel('Accuracy')
+plt.title('Top-1 Accuracy vs Epoch')
+plt.ylabel('Top-1 Accuracy')
 
 plt.xlabel('Epoch')
 plt.legend()
@@ -46,8 +44,8 @@ plt.clf()
 
 plt.plot(epochs, valid_accuracy_5, '-c', label='Validation Accuracy')
 plt.plot(epochs, train_accuracy_5, '-m', label='Train Accuracy')
-plt.title('Accuracy vs Epoch')
-plt.ylabel('Accuracy')
+plt.title('Top-5 Accuracy vs Epoch')
+plt.ylabel('Top-5 Accuracy')
 
 plt.xlabel('Epoch')
 plt.legend()
